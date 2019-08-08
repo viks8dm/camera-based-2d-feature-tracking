@@ -60,7 +60,7 @@ Total number of keypoints detected by each method for every image are listed in 
 
 Corresponding time taken in detection is shown in the plot here along with a sample output for `AKAZE` descriptor:
 
-<img src="results/time_keypoints.jpg" width="520" height="248" />
+<img src="results/time_keypoints.jpg" width="670" height="348" />
 
 ![alt text](results/image_keypoints.jpg)
 
@@ -81,7 +81,7 @@ Associated number of keypoints detected on preceding vehicle in the images are:
 | img-9 | 698 | 823 | 940 | 1429 | 292 | 725 | 757 |
 
 
-<img src="results/num_keypoints.jpg" width="620" height="348" />
+<img src="results/num_keypoints.jpg" width="670" height="400" />
 
 
 #### Neighborhood size
@@ -110,7 +110,7 @@ while others have a distribution, among which ORB seems to have large spread. Th
 
 A mean of the number of matched keypoints for all 10 images using all possible combinations of detectors and descriptors is shown here.
 
-<img src="results/matched_keypoints_mean.jpg" width="520" height="265" />
+<img src="results/matched_keypoints_mean.jpg" width="670" height="265" />
 
 
 
@@ -133,7 +133,7 @@ A sample matched-pair with ORB-FREAK combination is shown here:
 
 The mean of time taken for keypoint detection and descriptor extraction for all combinations is listed below.
 
-<img src="results/time_mean_detect_extract.jpg" width="620" height="248" />
+<img src="results/time_mean_detect_extract.jpg" width="670" height="270" />
 
 
 These results and all others presented above are derived from data that can be found in the [results excel-sheet](./results/results.xlsx)
@@ -149,7 +149,7 @@ score = 1000 * (mean-matched-keypoints / mean-detection-extraction-time)
 
 The corresponding scores are shown in image below, with highest three highlighted in different shades of green.
 
-<img src="results/ratio_points_time.jpg" width="620" height="248" />
+<img src="results/ratio_points_time.jpg" width="670" height="270" />
 
 
 Based on these scores my recommendations are:
