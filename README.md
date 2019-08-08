@@ -133,7 +133,7 @@ A sample matched-pair with ORB-FREAK combination is shown here:
 
 The mean of time taken for keypoint detection and descriptor extraction for all combinations is listed below.
 
-<img src="results/time_mean_detect_extract.jpg" width="670" height="270" />
+<img src="results/time_mean_detect_extract.jpg" width="750" height="270" />
 
 
 These results and all others presented above are derived from data that can be found in the [results excel-sheet](./results/results.xlsx)
@@ -149,7 +149,7 @@ score = 1000 * (mean-matched-keypoints / mean-detection-extraction-time)
 
 The corresponding scores are shown in image below, with highest three highlighted in different shades of green.
 
-<img src="results/ratio_points_time.jpg" width="670" height="270" />
+<img src="results/ratio_points_time.jpg" width="750" height="270" />
 
 
 Based on these scores my recommendations are:
